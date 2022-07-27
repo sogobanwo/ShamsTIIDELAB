@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Division check</title>
+</head>
+
+<body>
+
+  <script>
+    // Number 1
+
+    for (let x = 1; x < 201; x++) {
+      let answer1 = x % 6;
+      let answer2 = x % 8;
+      if (answer1 === 0 && answer2 === 0) {
+        console.log(`ShamsTIIDELAB`)
+      } else if (answer1 === 0 && answer2 != 0) {
+        console.log(`Shams`)
+      } else if (answer2 === 0 && answer1 != 0) {
+        console.log(`TIIDELab`)
+      } else {
+        console.log(x)
+      }
+    }
+  </script>
+</body>
+
+</html>
